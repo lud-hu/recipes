@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6f1e8" />
+  <title>Rezepte</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">Kochbuch</p>
+      <h1>Rezepte</h1>
+      <p class="subtitle">Schnell filtern, gut am Handy lesen, direkt aus GitHub Pages.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Rezepte filtern">
+      <label class="search">
+        <span>Suche</span>
+        <input id="search" type="search" placeholder="z. B. Pasta, Thai, vegan …" autocomplete="off" />
+      </label>
+
+      <div class="filter-grid">
+        <label>
+          <span>Küche</span>
+          <select id="cuisine"><option value="">Alle</option></select>
+        </label>
+        <label>
+          <span>Ernährung</span>
+          <select id="diet"><option value="">Alle</option></select>
+        </label>
+        <label>
+          <span>Gang</span>
+          <select id="course"><option value="">Alle</option></select>
+        </label>
+        <label>
+          <span>Aufwand</span>
+          <select id="effort"><option value="">Alle</option></select>
+        </label>
+      </div>
+
+      <div id="tagFilters" class="chips" aria-label="Schlagworte"></div>
+    </section>
+
+    <section class="result-summary">
+      <span id="count">0 Rezepte</span>
+      <button id="reset" type="button">Filter zurücksetzen</button>
+    </section>
+
+    <section id="recipes" class="recipes" aria-live="polite"></section>
+  </main>
+
+  <template id="recipe-card-template">
+    <article class="card">
+      <div class="card-header">
+        <div>
+          <p class="card-kicker"></p>
+          <h2></h2>
+        </div>
+        <span class="time"></span>
+      </div>
+      <p class="description"></p>
+      <div class="meta"></div>
+      <details>
+        <summary>Zutaten & Zubereitung</summary>
+        <h3>Zutaten</h3>
+        <ul class="ingredients"></ul>
+        <h3>Zubereitung</h3>
+        <ol class="steps"></ol>
+      </details>
+    </article>
+  </template>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>

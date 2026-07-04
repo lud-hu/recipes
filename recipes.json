@@ -1,0 +1,26 @@
+[
+  {
+    "id": "tomaten-pasta",
+    "title": "Tomaten-Pasta",
+    "description": "Ein einfaches Basisrezept als Beispiel für die Rezeptstruktur.",
+    "cuisine": "Italienisch",
+    "diet": "vegetarisch",
+    "course": "Hauptspeise",
+    "effort": "einfach",
+    "time": "25 min",
+    "servings": 2,
+    "tags": ["Pasta", "schnell", "Alltag"],
+    "ingredients": [
+      "200 g Pasta",
+      "1 Dose Tomaten",
+      "1 Knoblauchzehe",
+      "1 EL Olivenöl",
+      "Salz, Pfeffer"
+    ],
+    "steps": [
+      "Pasta in Salzwasser al dente kochen.",
+      "Knoblauch in Olivenöl anschwitzen, Tomaten dazugeben und 10 Minuten köcheln lassen.",
+      "Pasta mit Sauce vermengen und abschmecken."
+    ]
+  }
+]
