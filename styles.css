@@ -66,6 +66,8 @@ main {
   backdrop-filter: blur(12px);
 }
 
+[hidden] { display: none !important; }
+
 label span {
   display: block;
   color: var(--muted);
@@ -212,6 +214,31 @@ summary {
   color: var(--accent);
 }
 
+.open-recipe,
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--accent);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.open-recipe {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.back-link {
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: .65rem .9rem;
+  margin-bottom: 1.2rem;
+}
+
 h3 {
   margin: 1rem 0 .35rem;
 }
@@ -226,9 +253,75 @@ li { margin: .35rem 0; }
   border-radius: 1.25rem;
 }
 
+.empty a {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.recipe-detail-wrap {
+  display: block;
+}
+
+.recipe-detail {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow);
+  padding: 1rem;
+}
+
+.detail-title {
+  font-size: clamp(2rem, 12vw, 4rem);
+  line-height: .95;
+  letter-spacing: -.04em;
+}
+
+.detail-description {
+  font-size: 1.08rem;
+  line-height: 1.55;
+}
+
+.detail-meta {
+  margin: 1rem 0 1.25rem;
+}
+
+.detail-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.detail-panel {
+  background: #fffaf2;
+  border: 1px solid var(--line);
+  border-radius: 1.15rem;
+  padding: 1rem;
+}
+
+.detail-panel h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.detail-list {
+  margin: .75rem 0 0;
+  padding-left: 1.35rem;
+}
+
+.detail-list li {
+  margin: .7rem 0;
+  line-height: 1.55;
+}
+
+.steps-list li::marker {
+  color: var(--accent);
+  font-weight: 800;
+}
+
 @media (min-width: 720px) {
   .site-header { padding-top: 4rem; }
   .controls { padding: 1.25rem; }
   .filter-grid { grid-template-columns: repeat(4, 1fr); }
   .recipes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .recipe-detail { padding: 1.5rem; }
+  .detail-grid { grid-template-columns: minmax(16rem, .8fr) 1.2fr; align-items: start; }
 }
