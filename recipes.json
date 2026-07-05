@@ -1,26 +1,42 @@
 [
   {
-    "id": "tomaten-pasta",
-    "title": "Tomaten-Pasta",
-    "description": "Ein einfaches Basisrezept als Beispiel für die Rezeptstruktur.",
-    "cuisine": "Italienisch",
+    "id": "conchiglie-joghurt-erbsen-chili",
+    "title": "Conchiglie mit Joghurt, Erbsen & Chili",
+    "description": "Warme Muschelnudeln mit sahniger Joghurtsauce, Erbsen, Basilikum, Feta und Chili-Pinienkern-Öl.",
+    "cuisine": "Nahöstlich",
     "diet": "vegetarisch",
     "course": "Hauptspeise",
-    "effort": "einfach",
-    "time": "25 min",
-    "servings": 2,
-    "tags": ["Pasta", "schnell", "Alltag"],
+    "effort": "mittel",
+    "time": "35 min",
+    "servings": 6,
+    "tags": [
+      "Pasta",
+      "Erbsen",
+      "Joghurt",
+      "Feta",
+      "Chili",
+      "Ottolenghi"
+    ],
     "ingredients": [
-      "200 g Pasta",
-      "1 Dose Tomaten",
-      "1 Knoblauchzehe",
-      "1 EL Olivenöl",
-      "Salz, Pfeffer"
+      "500 g griechischer Joghurt",
+      "150 ml Olivenöl",
+      "4 Knoblauchzehen, zerdrückt",
+      "500 g Erbsen, blanchiert oder tiefgefroren und aufgetaut",
+      "500 g Conchiglie (Muschelnudeln)",
+      "60 g Pinienkerne",
+      "2 TL Chiliflocken, oder weniger je nach Schärfe",
+      "40 g Basilikumblätter, in Stücke gerissen",
+      "240 g Feta, in Stücke gebrochen",
+      "Salz und frisch geschroteter weißer Pfeffer"
     ],
     "steps": [
-      "Pasta in Salzwasser al dente kochen.",
-      "Knoblauch in Olivenöl anschwitzen, Tomaten dazugeben und 10 Minuten köcheln lassen.",
-      "Pasta mit Sauce vermengen und abschmecken."
+      "Den Joghurt in der Küchenmaschine mit 90 ml Olivenöl, dem Knoblauch und 100 g Erbsen zu einer glatten Sauce verarbeiten und in eine große Schüssel füllen.",
+      "Die Nudeln in reichlich Salzwasser al dente garen.",
+      "Inzwischen das restliche Öl bei mittlerer Temperatur in einer kleinen Pfanne erhitzen und die Pinienkerne mit den Chiliflocken darin 4 Minuten rösten, bis die Pinienkerne goldbraun sind und das Öl eine intensive rote Farbe angenommen hat.",
+      "Gleichzeitig die restlichen Erbsen in etwas kochendem Wasser erhitzen und anschließend abgießen.",
+      "Die Nudeln abgießen, gut abtropfen lassen und nach und nach mit der Joghurtsauce vermischen, damit der Joghurt nicht gerinnt.",
+      "Erbsen, Basilikum und Feta hinzufügen und mit 1 Teelöffel Salz und 1/2 Teelöffel Pfeffer würzen.",
+      "Alles vorsichtig durchmischen, in Portionsschalen anrichten und die Pinienkerne mit dem Chiliöl darüber verteilen. Warm servieren."
     ]
   }
 ]
