@@ -38,5 +38,46 @@
       "Erbsen, Basilikum und Feta hinzufügen und mit 1 Teelöffel Salz und 1/2 Teelöffel Pfeffer würzen.",
       "Alles vorsichtig durchmischen, in Portionsschalen anrichten und die Pinienkerne mit dem Chiliöl darüber verteilen. Warm servieren."
     ]
+  },
+  {
+    "id": "kaesespaetzle-ur-oma",
+    "title": "Käsespätzle nach Art von Ludwigs Ur-Oma",
+    "description": "Herzhafte Käsespätzle mit Emmentaler, Bergkäse, Romadur oder Limburger und gebräunten Butterzwiebeln.",
+    "cuisine": "Schwäbisch",
+    "diet": "vegetarisch",
+    "course": "Hauptspeise",
+    "effort": "mittel",
+    "time": "60 min",
+    "servings": 4,
+    "tags": [
+      "Spätzle",
+      "Käse",
+      "Familienrezept",
+      "Hausmannskost",
+      "Winterküche"
+    ],
+    "ingredients": [
+      "500 g Mehl, am besten Spätzlemehl",
+      "5 Eier",
+      "220 ml Mineralwasser",
+      "1 gute Prise Salz",
+      "150 g Emmentaler",
+      "150 g Bergkäse",
+      "50 g Romadur oder Limburger",
+      "3 große Zwiebeln",
+      "Butter",
+      "Salzwasser"
+    ],
+    "steps": [
+      "Die Zwiebeln beliebig klein schneiden und in reichlich Butter bei mittlerer Hitze Farbe nehmen lassen. Je nach Geschmack dürfen sie auch etwas dunkler werden.",
+      "Das Mehl in eine Schüssel sieben. Eier, Mineralwasser und eine gute Prise Salz hinzufügen.",
+      "Den Teig traditionell von Hand schlagen oder mit dem Rührgerät zubereiten. Je nach Konsistenz mit Wasser oder Mehl nachhelfen. Sobald der Teig Blasen schlägt, ist er fertig und kann noch etwas ruhen.",
+      "In der Zwischenzeit einen großen Topf mit reichlich Wasser aufsetzen und zum Simmern bringen. Den gesamten Käse reiben und vermengen. Das Wasser salzen.",
+      "Den Teig portionsweise in den Spätzlehobel füllen und die Spätzle ins Wasser hobeln. Darauf achten, dass sie nicht am Topfboden festbacken.",
+      "Sobald die Spätzle an der Oberfläche schwimmen, noch etwa 30 Sekunden ziehen lassen. Dann mit einem Schaumlöffel abschöpfen und in eine große Schüssel geben.",
+      "Auf jede Lage Spätzle eine Lage Käse geben. Dies wiederholen, bis der Teig verbraucht ist.",
+      "Am Ende die gesamte Masse verrühren und mit etwas Spätzlewasser schmatziger machen.",
+      "Zum Schluss die gebräunten Zwiebeln auf den Kässpätzle verteilen und servieren."
+    ]
   }
 ]
