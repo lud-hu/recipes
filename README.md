@@ -23,6 +23,16 @@ Rezepte liegen in `recipes.json`. Neue Rezepte werden als Objekte mit diesen Fel
 }
 ```
 
+## Validierung
+
+Für reine Rezeptänderungen reicht der schnelle Schema-/Konsistenzcheck:
+
+```bash
+python3 scripts/validate_recipes.py
+```
+
+Der Validator prüft u. a. Pflichtfelder, Typen, eindeutige IDs, Slug-Format, nicht-leere Zutaten/Schritte und übliche Kategorien.
+
 ## GitHub Pages
 
 Die Seite ist rein statisch und kann direkt aus dem Repository-Root über GitHub Pages veröffentlicht werden.
