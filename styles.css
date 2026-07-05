@@ -302,6 +302,53 @@ li { margin: .35rem 0; }
   font-size: 1.25rem;
 }
 
+.servings-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  margin: .85rem 0 1rem;
+  padding: .75rem;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+}
+
+.servings-label {
+  color: var(--muted);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.servings-stepper {
+  display: grid;
+  grid-template-columns: 2.75rem 4.25rem 2.75rem;
+  gap: .35rem;
+  align-items: center;
+}
+
+.servings-button,
+.servings-input {
+  min-height: 2.75rem;
+  border: 1px solid var(--line);
+  border-radius: .85rem;
+  text-align: center;
+  background: #fff;
+  color: var(--text);
+  font-weight: 800;
+}
+
+.servings-button {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+  font-size: 1.2rem;
+}
+
+.servings-input {
+  padding: .4rem;
+}
+
 .detail-list {
   margin: .75rem 0 0;
   padding-left: 1.35rem;

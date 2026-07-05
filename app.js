@@ -122,6 +122,66 @@ function appendBadges(container, items) {
   }
 }
 
+function formatScaledNumber(value) {
+  const rounded = Math.round((value + Number.EPSILON) * 10) / 10;
+  if (Number.isInteger(rounded)) return String(rounded);
+  return String(rounded).replace('.', ',');
+}
+
+function scaleIngredient(ingredient, factor) {
+  if (factor === 1) return ingredient;
+
+  const match = ingredient.match(/^(\d+(?:[,.]\d+)?)(\s*)(g|kg|ml|l|TL|EL|Prise|Prisen|Dose|Dosen|Knoblauchzehe|Knoblauchzehen|Zwiebel|Zwiebeln|Ei|Eier)\b(.*)$/i);
+  if (!match) return ingredient;
+
+  const [, amount, spacing, unit, rest] = match;
+  const scaled = Number(amount.replace(',', '.')) * factor;
+  return `${formatScaledNumber(scaled)}${spacing}${unit}${rest}`;
+}
+
+function renderIngredients(list, recipe, servings) {
+  list.replaceChildren();
+  const baseServings = recipe.servings || servings || 1;
+  const factor = servings / baseServings;
+  for (const ingredient of recipe.ingredients || []) {
+    const li = document.createElement('li');
+    li.textContent = scaleIngredient(ingredient, factor);
+    list.append(li);
+  }
+}
+
+function createServingsControl(recipe, ingredientsList) {
+  const baseServings = recipe.servings || 1;
+  const control = document.createElement('div');
+  control.className = 'servings-control';
+  control.innerHTML = `
+    <label class="servings-label" for="servings-input">Portionen</label>
+    <div class="servings-stepper">
+      <button class="servings-button" type="button" data-step="-1" aria-label="Eine Portion weniger">−</button>
+      <input id="servings-input" class="servings-input" type="number" inputmode="numeric" min="1" max="99" step="1" value="${baseServings}" />
+      <button class="servings-button" type="button" data-step="1" aria-label="Eine Portion mehr">+</button>
+    </div>
+  `;
+
+  const input = control.querySelector('.servings-input');
+  const update = (nextValue) => {
+    const parsed = Number.parseInt(nextValue, 10);
+    const servings = Math.min(99, Math.max(1, Number.isFinite(parsed) ? parsed : baseServings));
+    input.value = String(servings);
+    renderIngredients(ingredientsList, recipe, servings);
+  };
+
+  control.querySelectorAll('.servings-button').forEach((button) => {
+    button.addEventListener('click', () => {
+      update(Number(input.value || baseServings) + Number(button.dataset.step));
+    });
+  });
+  input.addEventListener('input', () => update(input.value));
+  input.addEventListener('blur', () => update(input.value));
+
+  return control;
+}
+
 function render() {
   const id = currentRecipeId();
   if (id) {
@@ -239,11 +299,8 @@ function renderDetail(id) {
   ingredientsSection.innerHTML = '<h3>Zutaten</h3>';
   const ingredients = document.createElement('ul');
   ingredients.className = 'detail-list ingredients-list';
-  for (const ingredient of recipe.ingredients || []) {
-    const li = document.createElement('li');
-    li.textContent = ingredient;
-    ingredients.append(li);
-  }
+  ingredientsSection.append(createServingsControl(recipe, ingredients));
+  renderIngredients(ingredients, recipe, recipe.servings || 1);
   ingredientsSection.append(ingredients);
 
   const stepsSection = document.createElement('section');
