@@ -79,5 +79,56 @@
       "Am Ende die gesamte Masse verrühren und mit etwas Spätzlewasser schmatziger machen.",
       "Zum Schluss die gebräunten Zwiebeln auf den Kässpätzle verteilen und servieren."
     ]
+  },
+  {
+    "id": "spinatlasagne",
+    "title": "Spinatlasagne",
+    "description": "Cremige, käsige Spinatlasagne nach Serious Eats – mit Ricotta, Mozzarella, Parmesan und weißer Soße. Für 8 bis 10 Portionen.",
+    "cuisine": "Italienisch",
+    "diet": "vegetarisch",
+    "course": "Hauptspeise",
+    "effort": "aufwendig",
+    "time": "90 min",
+    "servings": 8,
+    "tags": [
+      "Lasagne",
+      "Spinat",
+      "Ricotta",
+      "Ofengericht",
+      "Serious Eats"
+    ],
+    "source": "https://www.seriouseats.com/food-lab-creamy-cheesy-ultimate-spinach-lasagna-recipe",
+    "ingredients": [
+      "2 EL Butter",
+      "2 EL Olivenöl",
+      "1 Schalotte, fein gehackt",
+      "6 Knoblauchzehen, fein gehackt",
+      "Salz und Pfeffer",
+      "900 g frischer Spinat",
+      "900 g Ricotta",
+      "2 Eier",
+      "115 g Parmesan, frisch gerieben",
+      "1 TL frisch gemahlene Muskatnuss",
+      "4 EL Butter",
+      "32 g Mehl",
+      "950 ml Milch",
+      "340 g Mozzarella",
+      "340 g Comté, Gruyère oder Emmentaler",
+      "680 g Nudelplatten"
+    ],
+    "steps": [
+      "Für den Spinat Butter und Olivenöl in einem großen Topf bei mittlerer Hitze erhitzen. Schalotte und Knoblauch zugeben, mit Salz und Pfeffer würzen und etwa 1 Minute weich und duftend anschwitzen.",
+      "Den Spinat nach und nach in großen Handvoll zugeben und unter Rühren zusammenfallen lassen. Weitergaren, bis der Spinat seine Flüssigkeit abgegeben hat und der Topfboden beim Rühren weitgehend trocken bleibt. Mit Salz und Pfeffer abschmecken.",
+      "Den Spinat in ein feines Sieb geben und mit einem Teigschaber oder Löffel möglichst viel Flüssigkeit ausdrücken. Abtropfen lassen.",
+      "Für die Ricottamasse 450 g Ricotta, die Eier, den Parmesan und die Muskatnuss in einer Küchenmaschine oder einem Mixer glatt pürieren. Mit Salz und Pfeffer würzen.",
+      "Die Ricottamischung in eine große Schüssel geben. Den Spinat kurz fein hacken oder in der Küchenmaschine mit kurzen Impulsen zerkleinern. Spinat und den restlichen Ricotta vorsichtig unterheben.",
+      "Für die weiße Soße die Butter in einem Topf schmelzen. Das Mehl einrühren und bei mittlerer bis mittelhoher Hitze etwa 1 Minute unter Rühren hellblond anschwitzen. Nach und nach die Milch einrühren und unter Rühren aufkochen, bis die Soße eindickt.",
+      "Den Topf vom Herd nehmen und drei Viertel von Mozzarella und Comté, Gruyère oder Emmentaler einrühren, bis die Soße glatt ist. Mit Salz und Pfeffer abschmecken.",
+      "Den Ofen auf 200 °C vorheizen. Einen großen Topf Salzwasser zum Kochen bringen. Die Nudelplatten portionsweise etwa 45 Sekunden vorkochen, kalt abschrecken und nebeneinander auf einem sauberen Küchentuch ausbreiten.",
+      "Etwas weiße Soße auf dem Boden einer Lasagneform verteilen. Eine Lage Nudelplatten darauflegen. Dann jeweils etwas Spinat-Ricotta-Masse und etwas weiße Soße daraufgeben. So weiter schichten, bis die oberste Nudelschicht aufgelegt ist.",
+      "Die restliche Spinatmasse gleichmäßig darauf verteilen. Mit dem restlichen Mozzarella und Käse bestreuen, die übrige weiße Soße darübergeben und glattstreichen.",
+      "Die Form fest mit Alufolie abdecken und 20 Minuten backen. Folie entfernen und weitere etwa 20 Minuten backen, bis die Lasagne blubbert und leicht gebräunt ist.",
+      "Die Lasagne 5 bis 10 Minuten ruhen lassen, dann anschneiden und servieren."
+    ]
   }
 ]
