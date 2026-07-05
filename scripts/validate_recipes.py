@@ -40,6 +40,9 @@ COMMON_COURSES = {
     "Getränk",
 }
 COMMON_DIETS = {"vegetarisch", "vegan", "Fleisch", "Fisch"}
+OPTIONAL_FIELDS = {
+    "source": str,
+}
 
 
 def is_non_empty_string(value: Any) -> bool:
@@ -92,6 +95,12 @@ def validate_recipe(recipe: Any, index: int, seen_ids: set[str], errors: list[st
     if isinstance(recipe.get("servings"), int) and recipe["servings"] <= 0:
         errors.append(f"{recipe_id}: servings must be > 0")
 
+    for field, expected_type in OPTIONAL_FIELDS.items():
+        if field in recipe and not isinstance(recipe[field], expected_type):
+            errors.append(f"{recipe_id}: optional field '{field}' must be {expected_type.__name__}")
+        elif field in recipe and expected_type is str and not is_non_empty_string(recipe[field]):
+            errors.append(f"{recipe_id}: optional field '{field}' must be a non-empty string")
+
     validate_string_list(recipe, "tags", errors)
     validate_string_list(recipe, "ingredients", errors)
     validate_string_list(recipe, "steps", errors)
@@ -108,7 +117,7 @@ def validate_recipe(recipe: Any, index: int, seen_ids: set[str], errors: list[st
     if isinstance(diet, str) and diet not in COMMON_DIETS:
         warnings.append(f"{recipe_id}: uncommon diet '{diet}'")
 
-    allowed = set(REQUIRED_FIELDS)
+    allowed = set(REQUIRED_FIELDS) | set(OPTIONAL_FIELDS)
     extra = sorted(set(recipe) - allowed)
     if extra:
         warnings.append(f"{recipe_id}: extra fields ignored by current app: {', '.join(extra)}")

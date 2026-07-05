@@ -285,6 +285,17 @@ li { margin: .35rem 0; }
   margin: 1rem 0 1.25rem;
 }
 
+.recipe-source {
+  margin: 0 0 1.25rem;
+}
+
+.recipe-source a {
+  color: var(--accent);
+  font-weight: 800;
+  text-decoration-thickness: .08em;
+  text-underline-offset: .16em;
+}
+
 .detail-grid {
   display: grid;
   gap: 1rem;

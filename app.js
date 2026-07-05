@@ -291,6 +291,18 @@ function renderDetail(id) {
   appendBadges(meta, [recipe.time, ...metaItems(recipe)].filter(Boolean));
   article.append(meta);
 
+  if (recipe.source) {
+    const source = document.createElement('p');
+    source.className = 'recipe-source';
+    const link = document.createElement('a');
+    link.href = recipe.source;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = 'Originalrezept öffnen';
+    source.append(link);
+    article.append(source);
+  }
+
   const grid = document.createElement('div');
   grid.className = 'detail-grid';
 
