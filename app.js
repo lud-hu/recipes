@@ -8,6 +8,8 @@ const recipesEl = $('#recipes');
 const template = $('#recipe-card-template');
 const controlsEl = $('.controls');
 const summaryEl = $('.result-summary');
+const filtersToggleEl = $('#filtersToggle');
+const filtersPanelEl = $('#filtersPanel');
 const filters = {
   search: $('#search'),
   cuisine: $('#cuisine'),
@@ -102,6 +104,12 @@ function matches(recipe) {
 function setListChromeVisible(visible) {
   controlsEl.hidden = !visible;
   summaryEl.hidden = !visible;
+}
+
+function setFiltersExpanded(expanded) {
+  filtersPanelEl.hidden = !expanded;
+  filtersToggleEl.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+  controlsEl.classList.toggle('is-open', expanded);
 }
 
 function metaItems(recipe) {
@@ -213,33 +221,15 @@ function renderList() {
   for (const recipe of filtered) {
     const node = template.content.cloneNode(true);
     const article = node.querySelector('.card');
+    const cardLink = node.querySelector('.card-link');
+    cardLink.href = recipeUrl(recipe);
+    cardLink.setAttribute('aria-label', `${recipe.title} öffnen`);
     node.querySelector('.card-kicker').textContent = [recipe.cuisine, recipe.course].filter(Boolean).join(' · ');
     node.querySelector('h2').textContent = recipe.title;
     node.querySelector('.time').textContent = recipe.time || '—';
     node.querySelector('.description').textContent = recipe.description || '';
 
     appendBadges(node.querySelector('.meta'), metaItems(recipe));
-
-    const ingredients = node.querySelector('.ingredients');
-    for (const ingredient of recipe.ingredients || []) {
-      const li = document.createElement('li');
-      li.textContent = ingredient;
-      ingredients.append(li);
-    }
-
-    const steps = node.querySelector('.steps');
-    for (const step of recipe.steps || []) {
-      const li = document.createElement('li');
-      li.textContent = step;
-      steps.append(li);
-    }
-
-    const openLink = document.createElement('a');
-    openLink.className = 'open-recipe';
-    openLink.href = recipeUrl(recipe);
-    openLink.textContent = 'Detailseite öffnen';
-    openLink.setAttribute('aria-label', `${recipe.title} als Detailseite öffnen`);
-    article.append(openLink);
 
     recipesEl.append(node);
   }
@@ -338,11 +328,16 @@ $('#reset').addEventListener('click', () => {
   state.tag = '';
   showListRoute();
 });
+filtersToggleEl.addEventListener('click', () => {
+  setFiltersExpanded(filtersPanelEl.hidden);
+});
 window.addEventListener('hashchange', () => {
   if (!currentRecipeId()) document.title = 'Rezepte';
   render();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+setFiltersExpanded(false);
 
 loadRecipes().catch((error) => {
   recipesEl.innerHTML = `<p class="empty">${error.message}</p>`;

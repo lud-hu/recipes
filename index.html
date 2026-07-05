@@ -18,31 +18,38 @@
 
   <main>
     <section class="controls" aria-label="Rezepte filtern">
-      <label class="search">
-        <span>Suche</span>
-        <input id="search" type="search" placeholder="z. B. Pasta, Thai, vegan …" autocomplete="off" />
-      </label>
+      <button id="filtersToggle" class="controls-toggle" type="button" aria-expanded="false" aria-controls="filtersPanel">
+        <span>Suche & Filter</span>
+        <span class="controls-toggle-icon" aria-hidden="true">▾</span>
+      </button>
 
-      <div class="filter-grid">
-        <label>
-          <span>Küche</span>
-          <select id="cuisine"><option value="">Alle</option></select>
+      <div id="filtersPanel" class="controls-panel" hidden>
+        <label class="search">
+          <span>Suche</span>
+          <input id="search" type="search" placeholder="z. B. Pasta, Thai, vegan …" autocomplete="off" />
         </label>
-        <label>
-          <span>Ernährung</span>
-          <select id="diet"><option value="">Alle</option></select>
-        </label>
-        <label>
-          <span>Gang</span>
-          <select id="course"><option value="">Alle</option></select>
-        </label>
-        <label>
-          <span>Aufwand</span>
-          <select id="effort"><option value="">Alle</option></select>
-        </label>
+
+        <div class="filter-grid">
+          <label>
+            <span>Küche</span>
+            <select id="cuisine"><option value="">Alle</option></select>
+          </label>
+          <label>
+            <span>Ernährung</span>
+            <select id="diet"><option value="">Alle</option></select>
+          </label>
+          <label>
+            <span>Gang</span>
+            <select id="course"><option value="">Alle</option></select>
+          </label>
+          <label>
+            <span>Aufwand</span>
+            <select id="effort"><option value="">Alle</option></select>
+          </label>
+        </div>
+
+        <div id="tagFilters" class="chips" aria-label="Schlagworte"></div>
       </div>
-
-      <div id="tagFilters" class="chips" aria-label="Schlagworte"></div>
     </section>
 
     <section class="result-summary">
@@ -55,22 +62,17 @@
 
   <template id="recipe-card-template">
     <article class="card">
-      <div class="card-header">
-        <div>
-          <p class="card-kicker"></p>
-          <h2></h2>
+      <a class="card-link" href="#">
+        <div class="card-header">
+          <div>
+            <p class="card-kicker"></p>
+            <h2></h2>
+          </div>
+          <span class="time"></span>
         </div>
-        <span class="time"></span>
-      </div>
-      <p class="description"></p>
-      <div class="meta"></div>
-      <details>
-        <summary>Zutaten & Zubereitung</summary>
-        <h3>Zutaten</h3>
-        <ul class="ingredients"></ul>
-        <h3>Zubereitung</h3>
-        <ol class="steps"></ol>
-      </details>
+        <p class="description"></p>
+        <div class="meta"></div>
+      </a>
     </article>
   </template>
 
