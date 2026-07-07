@@ -130,5 +130,50 @@
       "Die Form fest mit Alufolie abdecken und 20 Minuten backen. Folie entfernen und weitere etwa 20 Minuten backen, bis die Lasagne blubbert und leicht gebräunt ist.",
       "Die Lasagne 5 bis 10 Minuten ruhen lassen, dann anschneiden und servieren."
     ]
+  },
+  {
+    "id": "schlutzkrapfen",
+    "title": "Schlutzkrapfen",
+    "description": "Südtiroler Teigtaschen mit Spinat-Ricotta-Füllung und brauner Butter.",
+    "cuisine": "Südtirolerisch",
+    "diet": "vegetarisch",
+    "course": "Hauptspeise",
+    "effort": "aufwendig",
+    "time": "90 min",
+    "servings": 4,
+    "tags": [
+      "Teigtaschen",
+      "Spinat",
+      "Ricotta",
+      "Südtirol",
+      "Hausmannskost"
+    ],
+    "ingredients": [
+      "125 g Roggenmehl",
+      "125 g Weizenmehl",
+      "1 Ei",
+      "1 EL Öl",
+      "4 EL lauwarmes Wasser",
+      "250 g Blattspinat",
+      "1 Bund Petersilie",
+      "1 kleine Zwiebel",
+      "100 g Butter",
+      "100 g Ricotta",
+      "5 EL geriebener Südtiroler Bergkäse oder Parmesan",
+      "Pfeffer",
+      "Salz",
+      "Muskatnuss"
+    ],
+    "steps": [
+      "Aus Roggenmehl, Weizenmehl, Ei, Öl und 4 bis 6 EL lauwarmem Wasser einen glatten, nicht zu festen Nudelteig kneten. In Folie wickeln und 30 Minuten ruhen lassen.",
+      "Für die Füllung in einem großen Topf Salzwasser aufkochen. Spinat verlesen, waschen, 2 Minuten blanchieren, abgießen, kalt abschrecken, gut abtropfen lassen und fest ausdrücken.",
+      "Petersilie waschen, Blättchen abzupfen und fein hacken. Zwiebel schälen, fein würfeln und in 2 EL Butter etwa 5 Minuten dünsten. Petersilie und Spinat 1 Minute mitdünsten.",
+      "Spinatmischung mit Ricotta und 3 EL geriebenem Käse vermengen und mit Salz, Pfeffer und Muskat abschmecken.",
+      "Nudelteig mit Mehl bestäuben und mit Nudelmaschine oder Nudelholz dünn ausrollen. Mit einer runden Form von etwa 8 cm Kreise ausstechen.",
+      "Auf jedes Teigstück 1 TL Füllung geben. Teigränder mit wenig Wasser bestreichen, zusammenklappen und mit den Fingern gut andrücken.",
+      "In einem großen Topf Salzwasser aufkochen und die Schlutzkrapfen darin etwa 8 Minuten bissfest garen.",
+      "Restliche Butter in einer schweren Pfanne bräunen. Schlutzkrapfen mit dem Schaumlöffel aus dem Wasser heben, abtropfen lassen und in der braunen Butter schwenken.",
+      "Auf Teller verteilen und mit dem restlichen Käse bestreut servieren."
+    ]
   }
 ]
