@@ -252,5 +252,53 @@
       "Nach und nach etwas Kichererbsenwasser zugeben, bis der Hummus die gewünschte Konsistenz hat.",
       "Abschmecken und bei Bedarf mit mehr Zitronensaft, Salz, Pfeffer oder Gewürzen anpassen."
     ]
+  },
+  {
+    "id": "autumn-pumpkin-pasta",
+    "title": "Autumn Pumpkin Pasta",
+    "description": "Herbstliche vegane Penne mit Kürbis, Salbei, Kürbiskernen und knusprigen Kokos-Bacon-Bits.",
+    "cuisine": "Modern",
+    "diet": "vegan",
+    "course": "Hauptspeise",
+    "effort": "mittel",
+    "time": "45 min",
+    "servings": 5,
+    "tags": [
+      "Pasta",
+      "Kürbis",
+      "Salbei",
+      "vegan",
+      "Herbst"
+    ],
+    "source": "https://web.archive.org/web/20210303074011/https://www.avantgardevegan.com/recipes/autumn-pumpkin-pasta/",
+    "ingredients": [
+      "1 mittelgroßer Kürbis oder Speisekürbis (im Original Queen Squash), geschält, entkernt und in 2 cm große Würfel geschnitten",
+      "300 g Penne",
+      "1 rote Zwiebel, fein gehackt",
+      "2 Knoblauchzehen, fein gehackt",
+      "1 Handvoll frischer Salbei",
+      "6 getrocknete Tomaten",
+      "3 EL Rapsöl",
+      "1 EL geräucherte Chiliflocken (optional)",
+      "3 EL Kürbiskerne",
+      "100 g Kokosflocken",
+      "2 EL Ahornsirup",
+      "2 EL Liquid Smoke",
+      "2 EL Sojasauce",
+      "1 EL Kokosöl",
+      "Olivenöl zum Ausbacken der Salbeiblätter",
+      "Salz und Pfeffer"
+    ],
+    "steps": [
+      "Den Kürbis schälen, entkernen und in etwa 2 cm große Würfel schneiden. In einen großen Topf geben, mit kaltem Wasser bedecken, aufkochen und nur so lange garen, bis der Kürbis gerade weich ist. Abgießen.",
+      "Für die Kokos-Bacon-Bits Kokosflocken, Ahornsirup, Liquid Smoke, Sojasauce und Kokosöl in einer Schüssel vermengen. Auf ein mit Backpapier belegtes Blech geben und 10 bis 12 Minuten backen, bis die Kokosflocken knusprig sind.",
+      "Die Penne in reichlich Salzwasser nach Packungsangabe al dente kochen.",
+      "In einer großen beschichteten Pfanne das Rapsöl bei mittlerer Hitze erhitzen. Zwiebel und Knoblauch darin weich anschwitzen.",
+      "Getrocknete Tomaten, geräucherte Chiliflocken und 5 bis 6 fein gehackte Salbeiblätter zugeben. Kurz anbraten, dann den vorgegarten Kürbis und die Kürbiskerne hinzufügen.",
+      "Die Hitze etwas erhöhen und den Kürbis unter häufigem Schwenken weiterbraten, bis er leichte Röstaromen und etwas Karamellisierung bekommt.",
+      "Parallel in einer kleinen Pfanne einige Esslöffel Olivenöl erhitzen und ganze Salbeiblätter darin auf beiden Seiten knusprig ausbacken. Auf Küchenpapier abtropfen lassen.",
+      "Die gekochte Pasta nach und nach in die große Pfanne geben und alles gut vermengen. Mit Salz und Pfeffer abschmecken.",
+      "Sofort servieren und mit den Kokos-Bacon-Bits sowie den knusprigen Salbeiblättern toppen."
+    ]
   }
 ]
