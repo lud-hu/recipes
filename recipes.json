@@ -175,5 +175,46 @@
       "Restliche Butter in einer schweren Pfanne bräunen. Schlutzkrapfen mit dem Schaumlöffel aus dem Wasser heben, abtropfen lassen und in der braunen Butter schwenken.",
       "Auf Teller verteilen und mit dem restlichen Käse bestreut servieren."
     ]
+  },
+  {
+    "id": "caponata",
+    "title": "Caponata",
+    "description": "Sizilianischer Auberginen-Schmortopf mit Sellerie, Tomate, Kapern, Pinienkernen und süß-saurer Note, zum Schluss mit Avocado verfeinert.",
+    "cuisine": "Sizilianisch",
+    "diet": "vegan",
+    "course": "Vorspeise",
+    "effort": "mittel",
+    "time": "40 min",
+    "servings": 4,
+    "tags": [
+      "Aubergine",
+      "Sizilien",
+      "Antipasti",
+      "Kapern",
+      "süß-sauer"
+    ],
+    "source": "https://www.foodandwine.com/recipes/eggplant-caponata",
+    "ingredients": [
+      "2 EL Kapern in Salzlake, abgetropft",
+      "60 ml Olivenöl extra vergine",
+      "1 Aubergine (ca. 450 g), geschält und in 1 cm große Würfel geschnitten",
+      "1 mittelgroße Zwiebel, fein gehackt",
+      "1 Stange Sellerie, fein gehackt",
+      "1 mittelgroße Tomate, fein gehackt",
+      "2 EL Rotweinessig",
+      "2 TL Zucker",
+      "1 TL Pinienkerne",
+      "Salz und frisch gemahlener schwarzer Pfeffer",
+      "1 reife Hass-Avocado, gewürfelt"
+    ],
+    "steps": [
+      "Die Kapern 15 Minuten in einer kleinen Schüssel mit Wasser einweichen und anschließend abgießen.",
+      "3 EL Olivenöl in einer großen Pfanne erhitzen. Die Auberginenwürfel bei mittelhoher Hitze zuerst 5 Minuten auf der Unterseite anbräunen, dann weitere 10 Minuten rundum goldbraun garen. Anschließend in eine Schüssel umfüllen.",
+      "Das restliche Olivenöl in die Pfanne geben. Zwiebel und Sellerie hinzufügen, abdecken und bei niedriger Hitze unter gelegentlichem Rühren etwa 10 Minuten weich garen. Die Tomate zugeben, erneut abdecken und etwa 5 Minuten mitgaren, bis sie weich ist.",
+      "Essig und Zucker in einem kleinen Topf erhitzen, bis sich der Zucker aufgelöst hat. Pinienkerne und Kapern zugeben und 1 Minute sanft köcheln lassen.",
+      "Die Aubergine zurück in die Pfanne geben, die Essigmischung unterrühren und alles bei niedriger Hitze noch 3 Minuten garen. Mit Salz und Pfeffer abschmecken.",
+      "Die Caponata in eine Schüssel umfüllen, auf Raumtemperatur abkühlen lassen und erst dann die Avocadowürfel vorsichtig unterheben.",
+      "Bei Zimmertemperatur servieren."
+    ]
   }
 ]
