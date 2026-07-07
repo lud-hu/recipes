@@ -216,5 +216,41 @@
       "Die Caponata in eine Schüssel umfüllen, auf Raumtemperatur abkühlen lassen und erst dann die Avocadowürfel vorsichtig unterheben.",
       "Bei Zimmertemperatur servieren."
     ]
+  },
+  {
+    "id": "hummus",
+    "title": "Hummus",
+    "description": "Klassischer Hummus aus Kichererbsen und Sesampaste, mit Zitrone, Kreuzkümmel und leichter Schärfe.",
+    "cuisine": "Nahöstlich",
+    "diet": "vegan",
+    "course": "Beilage",
+    "effort": "einfach",
+    "time": "10 min",
+    "servings": 4,
+    "tags": [
+      "Kichererbsen",
+      "Dip",
+      "Sesampaste",
+      "Zitrone",
+      "schnell"
+    ],
+    "ingredients": [
+      "1 Dose Kichererbsen (400–500 g)",
+      "3 EL Sesampaste",
+      "Saft von 1/2 bis 1 Zitrone",
+      "Olivenöl",
+      "1 TL bis 1 EL Kreuzkümmelpulver",
+      "1 getrocknete scharfe Chilischote, fein gehackt, oder 1 gute Messerspitze Chilipulver",
+      "1 gute Messerspitze Currypulver",
+      "Salz und Pfeffer",
+      "Etwas Kichererbsenwasser nach Bedarf"
+    ],
+    "steps": [
+      "Die Kichererbsen abgießen und das Kichererbsenwasser auffangen.",
+      "Kichererbsen, Sesampaste, Zitronensaft, etwas Olivenöl, Kreuzkümmel, Chili, Currypulver, Salz und Pfeffer in einen Mixer oder ein hohes Gefäß geben.",
+      "Alles glatt pürieren.",
+      "Nach und nach etwas Kichererbsenwasser zugeben, bis der Hummus die gewünschte Konsistenz hat.",
+      "Abschmecken und bei Bedarf mit mehr Zitronensaft, Salz, Pfeffer oder Gewürzen anpassen."
+    ]
   }
 ]
