@@ -395,5 +395,129 @@
       "Währenddessen die Linsen mit Zitronenabrieb, Zitronensaft, gehackten Kräutern, einer Prise Salz und Pfeffer sowie den schwarzen Oliven in einem kleinen Topf mischen und bei niedriger Hitze sanft erwärmen.",
       "Sobald die Auberginen glasiert sind, zusammen mit den warmen Linsen und dem gedämpften Gemüse servieren."
     ]
+  },
+  {
+    "id": "vegane-zimtschnecken",
+    "title": "Vegane Zimtschnecken",
+    "description": "Saftige vegane Zimtschnecken aus Hefeteig mit Zimt-Zucker-Füllung, Zuckerrübensirup und Zitronenglasur.",
+    "cuisine": "Skandinavisch",
+    "diet": "vegan",
+    "course": "Snack",
+    "effort": "mittel",
+    "time": "2 h 15 min",
+    "servings": 12,
+    "tags": [
+      "Hefegebäck",
+      "Zimt",
+      "vegan",
+      "Backen",
+      "süß"
+    ],
+    "source": "https://www.simply-yummy.de/backen/vegane-zimtschnecken",
+    "ingredients": [
+      "3/4 Würfel Hefe",
+      "25 ml lauwarmes Wasser",
+      "65 g Zucker",
+      "200 ml Mandelmilch",
+      "50 g Kokosöl",
+      "400 g Mehl",
+      "75–100 g weiche Margarine",
+      "2 EL Zuckerrübensirup",
+      "1 EL Zimt",
+      "4 EL brauner Zucker",
+      "150 g Puderzucker",
+      "3–4 EL Zitronensaft"
+    ],
+    "steps": [
+      "Für den Hefeteig Hefe mit Wasser und Zucker verrühren und etwa 15 Minuten stehen lassen, bis die Mischung aktiv ist.",
+      "Mandelmilch, Kokosöl und Mehl dazugeben und alles etwa 10 Minuten zu einem geschmeidigen Teig verkneten. Den Teig zu einer Kugel formen, abdecken und an einem warmen Ort 60 Minuten gehen lassen.",
+      "Für die Füllung Margarine mit Zuckerrübensirup verrühren. Zimt und braunen Zucker separat mischen. Eine Springform mit Backpapier auslegen.",
+      "Den Teig auf einer bemehlten Arbeitsfläche kurz durchkneten und zu einem Rechteck von etwa 35 x 30 cm ausrollen. Mit der Margarine-Sirup-Mischung bestreichen und gleichmäßig mit Zimt und Zucker bestreuen.",
+      "Den Teig von der langen Seite her aufrollen und mit einem scharfen Messer in 12 dicke Scheiben schneiden. Die Schnecken dicht an dicht in die Form setzen, abdecken und weitere 30 Minuten gehen lassen.",
+      "Den Backofen auf 180 °C Ober-/Unterhitze vorheizen.",
+      "Die Zimtschnecken 20 bis 30 Minuten backen und anschließend etwa 10 Minuten abkühlen lassen.",
+      "Für die Glasur Puderzucker mit Zitronensaft glatt rühren und über die noch leicht warmen Zimtschnecken geben."
+    ]
+  },
+  {
+    "id": "dattel-schokoladen-tarte-mit-whisky",
+    "title": "Dattel-Schokoladen-Tarte mit Whisky",
+    "description": "Schokoladige Tarte mit Kakaoboden, cremiger Ganache und whisky-aromatisierter Dattelmasse, serviert mit Granatapfelkernen.",
+    "cuisine": "Modern",
+    "diet": "vegetarisch",
+    "course": "Nachspeise",
+    "effort": "mittel",
+    "time": "3 h",
+    "servings": 8,
+    "tags": [
+      "Tarte",
+      "Schokolade",
+      "Datteln",
+      "Whisky",
+      "Granatapfel"
+    ],
+    "source": "https://migusto.migros.ch/de/rezepte/dattel-schokoladen-tarte-mit-whisky",
+    "ingredients": [
+      "150 g Mehl",
+      "2 EL Kakaopulver",
+      "60 g Zucker",
+      "50 g kalte Butter",
+      "1 Ei",
+      "Wenig Mehl zum Auswallen",
+      "Hülsenfrüchte zum Blindbacken",
+      "5 weiche Datteln",
+      "0,5 dl Wasser",
+      "0,2 dl Whisky",
+      "150 g extradunkle Schokolade mit 78 % Kakaoanteil",
+      "1,2 dl Vollrahm",
+      "25 g Butter",
+      "Granatapfelkerne zum Servieren"
+    ],
+    "steps": [
+      "Für den Teig Mehl, Kakaopulver und Zucker in einer Schüssel mischen. Die kalte Butter in Flocken dazugeben und alles zwischen den Händen krümelig reiben. Das Ei hinzufügen und alles rasch zu einem glatten Teig zusammenfügen. In Klarsichtfolie wickeln und mindestens 30 Minuten kalt stellen.",
+      "Den Backofen auf 180 °C Ober-/Unterhitze vorheizen. Den Teig auf wenig Mehl etwa 3 mm dünn auswallen, in eine Tarteform legen und den Boden mit einer Gabel einstechen. Mit Backpapier belegen und mit Hülsenfrüchten beschweren.",
+      "Den Boden in der Ofenmitte etwa 15 Minuten blind backen. Papier und Hülsenfrüchte entfernen und den Boden weitere 5 Minuten fertig backen. Danach vollständig auskühlen lassen.",
+      "Die Datteln halbieren, entkernen und grob hacken. Wasser aufkochen, über die Datteln gießen und etwa 10 Minuten ziehen lassen. Dann den Whisky zugeben und alles fein pürieren.",
+      "Die Schokolade fein hacken. Den Rahm erhitzen, aber nicht kochen lassen, und über die Schokolade gießen. Kurz stehen lassen, dann 25 g Butter in Flocken zugeben und alles glatt rühren. Falls nötig, die Masse über einem heißen Wasserbad vorsichtig fertig schmelzen.",
+      "Die Dattelmasse auf dem ausgekühlten Boden verstreichen und die Schokoladenmasse darüber verteilen. Nach Belieben mit einem Löffel ein Muster einziehen.",
+      "Die Tarte etwa 1 Stunde kühl stellen, mit Granatapfelkernen bestreuen und servieren."
+    ]
+  },
+  {
+    "id": "brownies-iggy",
+    "title": "Brownies à la Iggy",
+    "description": "Einfache saftige Brownies auf Bananenbasis mit Kakao, braunem Zucker und Vanille.",
+    "cuisine": "Amerikanisch",
+    "diet": "vegan",
+    "course": "Nachspeise",
+    "effort": "einfach",
+    "time": "40 min",
+    "servings": 8,
+    "tags": [
+      "Brownies",
+      "Banane",
+      "Schokolade",
+      "vegan",
+      "Backen"
+    ],
+    "ingredients": [
+      "1 Banane",
+      "90 g Margarine",
+      "65 g Kakao",
+      "125 g Mehl",
+      "150 g brauner Zucker",
+      "1 Prise Salz",
+      "1 TL Backpulver",
+      "Vanille nach Geschmack, zum Beispiel Paste oder Extrakt",
+      "30–100 ml Pflanzenmilch"
+    ],
+    "steps": [
+      "Den Backofen auf 180 °C Umluft vorheizen und eine passende Backform vorbereiten.",
+      "Die Banane fein zerdrücken und mit Margarine, Kakao, Mehl, braunem Zucker, Salz, Backpulver und Vanille verrühren.",
+      "Nach und nach 30 bis 100 ml Pflanzenmilch zugeben, bis ein glatter Teig entsteht, der weder zu trocken noch zu flüssig ist.",
+      "Den Teig in die Form füllen und glatt streichen.",
+      "Die Brownies bei 180 °C Umluft backen. Die genaue Backzeit an die Größe und Höhe der Form anpassen, bis die Oberfläche gesetzt ist und die Brownies innen noch saftig sind.",
+      "Vor dem Anschneiden abkühlen lassen."
+    ]
   }
 ]
