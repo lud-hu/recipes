@@ -300,5 +300,54 @@
       "Die gekochte Pasta nach und nach in die große Pfanne geben und alles gut vermengen. Mit Salz und Pfeffer abschmecken.",
       "Sofort servieren und mit den Kokos-Bacon-Bits sowie den knusprigen Salbeiblättern toppen."
     ]
+  },
+  {
+    "id": "linsen-salat-mit-ei-im-kresse-nest",
+    "title": "Linsen-Salat mit Ei im Kresse-Nest",
+    "description": "Würziger Belugalinsen-Salat mit Sultaninen, Kapern, kräftigem Gewürzdressing, frischer Kresse und hartgekochten Eiern.",
+    "cuisine": "Europäisch",
+    "diet": "vegetarisch",
+    "course": "Vorspeise",
+    "effort": "einfach",
+    "time": "35 min",
+    "servings": 4,
+    "tags": [
+      "Linsen",
+      "Salat",
+      "Ei",
+      "Kresse",
+      "Ostern"
+    ],
+    "source": "https://madamroteruebe.de/2019/04/linsen-salat-mit-ei-im-kresse-nest/",
+    "ingredients": [
+      "500 g Belugalinsen",
+      "1 große rote Zwiebel, fein gewürfelt",
+      "100 g Sultaninen oder andere Trockenfrüchte",
+      "40 g Kapern, eingelegt und fein gehackt",
+      "4 EL kalt gepresstes Olivenöl",
+      "3 EL Obstessig",
+      "1 EL Dijonsenf",
+      "1 EL milder Honig",
+      "1 gehäufter TL Meersalz",
+      "1/2 TL schwarzer Pfeffer aus der Mühle",
+      "1 TL gemahlener Kreuzkümmel",
+      "1/2 TL Kurkuma",
+      "1/2 TL gemahlener Koriander",
+      "1/2 TL gemahlener Kardamom",
+      "1/4 TL gemahlene Chili",
+      "1 Prise frisch geriebene Muskatnuss",
+      "1 Prise gemahlene Gewürznelken",
+      "1/4 TL gemahlener Ceylon-Zimt",
+      "1 Beet Kresse",
+      "4 Eier, hartgekocht"
+    ],
+    "steps": [
+      "Die Belugalinsen kalt abspülen, mit der dreifachen Menge Wasser aufsetzen und zum Kochen bringen. Die Hitze reduzieren und die Linsen mit Deckel 15 bis 20 Minuten garen, bis sie weich sind, aber noch etwas Biss haben. Abgießen, unter kaltem Wasser abschrecken und leicht abkühlen lassen.",
+      "Die rote Zwiebel fein würfeln. Sultaninen und Kapern noch feiner hacken und alles mit den Linsen in eine Schüssel geben.",
+      "Für das Dressing Olivenöl, Obstessig, Dijonsenf, Honig, Meersalz, Pfeffer, Kreuzkümmel, Kurkuma, Koriander, Kardamom, Chili, Muskat, Nelken und Zimt in ein Schraubglas geben und kräftig schütteln, bis sich alles gut verbunden hat.",
+      "Das Dressing über die Linsenmischung geben und alles gründlich vermengen.",
+      "Kurz vor dem Servieren die Kresse frisch abschneiden und über den Salat streuen. Die Eier schälen, halbieren und in einem Kressenest auf dem Salat anrichten. Mit etwas Salz und Pfeffer abschmecken.",
+      "Der Salat hält sich luftdicht verschlossen im Kühlschrank bis zu 3 Tage. Wer besonders viel Dressing mag, rührt am besten gleich etwas mehr davon an. Als Vorspeise reicht der Salat auch für bis zu 8 Personen."
+    ]
   }
 ]
