@@ -349,5 +349,51 @@
       "Kurz vor dem Servieren die Kresse frisch abschneiden und über den Salat streuen. Die Eier schälen, halbieren und in einem Kressenest auf dem Salat anrichten. Mit etwas Salz und Pfeffer abschmecken.",
       "Der Salat hält sich luftdicht verschlossen im Kühlschrank bis zu 3 Tage. Wer besonders viel Dressing mag, rührt am besten gleich etwas mehr davon an. Als Vorspeise reicht der Salat auch für bis zu 8 Personen."
     ]
+  },
+  {
+    "id": "sticky-umami-eggplants",
+    "title": "Sticky Umami Eggplants",
+    "description": "Glasierte Auberginen mit Balsamico, Sojasauce, Ahornsirup und Senf, serviert mit warmen Zitronen-Kräuter-Linsen und grünem Gemüse.",
+    "cuisine": "Modern",
+    "diet": "vegan",
+    "course": "Hauptspeise",
+    "effort": "einfach",
+    "time": "15 min",
+    "servings": 4,
+    "tags": [
+      "Aubergine",
+      "Umami",
+      "Linsen",
+      "vegan",
+      "schnell"
+    ],
+    "source": "https://www.gazoakleychef.com/recipes/sticky-umami-eggplants/",
+    "ingredients": [
+      "1 EL Olivenöl, oder etwas Wasser für eine ölfreie Variante",
+      "8 Baby-Auberginen, längs halbiert, oder 2 normale Auberginen in Spalten geschnitten",
+      "2 Schalotten, fein geschnitten",
+      "3 Knoblauchzehen, fein geschnitten",
+      "1 Prise Meersalz und Pfeffer",
+      "1 TL getrockneter Rosmarin",
+      "3 EL Balsamico",
+      "3 EL Sojasauce oder Coconut Aminos für eine sojafreie Variante",
+      "3 EL Ahornsirup",
+      "1 EL englischer Senf",
+      "240 ml Wasser",
+      "1 Dose Linsen, abgetropft",
+      "Abrieb und Saft von 1 Zitrone",
+      "1 Handvoll frische Kräuter, zum Beispiel Minze, Basilikum und Petersilie, gehackt",
+      "1 Prise Meersalz und Pfeffer",
+      "1 Handvoll schwarze Oliven",
+      "Spargelspitzen, gedämpft, zum Servieren",
+      "Queller, gedämpft, optional zum Servieren"
+    ],
+    "steps": [
+      "Eine beschichtete Pfanne bei mittlerer Hitze vorheizen und das Olivenöl hineingeben. Die Auberginen mit der Schnittseite nach unten in die Pfanne legen, dann Schalotten, Knoblauch sowie Salz und Pfeffer hinzufügen.",
+      "Die Auberginen 2 bis 3 Minuten braten, bis sie schön goldbraun sind, dann wenden.",
+      "Rosmarin, Balsamico, Sojasauce, Ahornsirup, Senf und Wasser zugeben. Die Hitze reduzieren und die Flüssigkeit etwa 5 Minuten einkochen lassen, bis eine glänzende Glasur entsteht.",
+      "Währenddessen die Linsen mit Zitronenabrieb, Zitronensaft, gehackten Kräutern, einer Prise Salz und Pfeffer sowie den schwarzen Oliven in einem kleinen Topf mischen und bei niedriger Hitze sanft erwärmen.",
+      "Sobald die Auberginen glasiert sind, zusammen mit den warmen Linsen und dem gedämpften Gemüse servieren."
+    ]
   }
 ]
