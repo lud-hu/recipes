@@ -519,5 +519,49 @@
       "Die Brownies bei 180 °C Umluft backen. Die genaue Backzeit an die Größe und Höhe der Form anpassen, bis die Oberfläche gesetzt ist und die Brownies innen noch saftig sind.",
       "Vor dem Anschneiden abkühlen lassen."
     ]
+  },
+  {
+    "id": "sabih",
+    "title": "Sabih",
+    "description": "Irakisch-israelisches Pita- oder Toastgericht mit frittierten Auberginen, Ei, Tahini, Zhoug, Amba und frischem Tomaten-Gurken-Salat.",
+    "cuisine": "Irakisch-Israelisch",
+    "diet": "vegetarisch",
+    "course": "Hauptspeise",
+    "effort": "mittel",
+    "time": "60 min",
+    "servings": 4,
+    "tags": [
+      "Aubergine",
+      "Tahini",
+      "Ei",
+      "Pita",
+      "Nahost",
+      "Zhoug",
+      "Amba"
+    ],
+    "ingredients": [
+      "2 große Auberginen (etwa 750 g)",
+      "etwa 300 ml Sonnenblumenöl",
+      "4 Scheiben Weißbrot, getoastet, oder frische kleine Pitabrote",
+      "250 ml Tahini-Sauce",
+      "4 Eier, hart gekocht und in 1 cm dicke Scheiben geschnitten oder geviertelt",
+      "4 EL Zhoug",
+      "Amba-Sauce oder sauer eingelegte Mangos, nach Belieben",
+      "Salz und schwarzer Pfeffer",
+      "Für den Salat: 2 mittelgroße reife Tomaten (200 g), in 1 cm große Würfel geschnitten",
+      "Für den Salat: 2 Minigurken (120 g), in 1 cm große Würfel geschnitten",
+      "Für den Salat: 2 Frühlingszwiebeln, in feine Ringe geschnitten",
+      "Für den Salat: 1 1/2 EL gehackte glatte Petersilie",
+      "Für den Salat: 2 TL Zitronensaft",
+      "Für den Salat: 1 1/2 EL Olivenöl"
+    ],
+    "steps": [
+      "Die Auberginen mit dem Sparschäler längs streifenweise schälen, sodass abwechselnd Schale und Fruchtfleisch sichtbar bleiben. Quer in 2,5 cm dicke Scheiben schneiden, beidseitig salzen und mindestens 30 Minuten Wasser ziehen lassen. Mit Küchenpapier trocken tupfen.",
+      "Das Sonnenblumenöl in einer Pfanne erhitzen. Die Auberginenscheiben portionsweise 6–8 Minuten frittieren, dabei einmal wenden, bis sie dunkelbraun und weich sind. Vorsicht: Das Öl kann spritzen. Auf Küchenpapier abtropfen lassen.",
+      "Tomaten, Gurken, Frühlingszwiebeln, Petersilie, Zitronensaft und Olivenöl mischen. Mit Salz und Pfeffer abschmecken.",
+      "Kurz vor dem Servieren je eine Scheibe Toast oder ein Pitabrot auf einen Teller legen und mit etwa 1 EL Tahini-Sauce bestreichen. Auberginen und Eier rosettenförmig darauf anrichten und mit weiterer Tahini-Sauce beträufeln.",
+      "Zhoug vorsichtig nach Geschmack daraufgeben; die Mischung ist sehr scharf. Nach Belieben Amba-Sauce oder sauer eingelegte Mango darauf verteilen.",
+      "Den Salat getrennt dazu reichen."
+    ]
   }
 ]
