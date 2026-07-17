@@ -563,5 +563,41 @@
       "Zhoug vorsichtig nach Geschmack daraufgeben; die Mischung ist sehr scharf. Nach Belieben Amba-Sauce oder sauer eingelegte Mango darauf verteilen.",
       "Den Salat getrennt dazu reichen."
     ]
+  },
+  {
+    "id": "reiskuchen-fuer-radtouren",
+    "title": "Reiskuchen für Radtouren",
+    "description": "Wenig süße, individuell würzbare Rice Cakes aus Milchreis, Frischkäse und Trockenfrüchten – gut zum Mitnehmen auf dem Fahrrad.",
+    "cuisine": "International",
+    "diet": "vegetarisch",
+    "course": "Snack",
+    "effort": "einfach",
+    "time": "30 min plus Kühlzeit",
+    "servings": 8,
+    "tags": [
+      "Fahrradfahren",
+      "Sport-Snack",
+      "Meal Prep",
+      "Milchreis",
+      "Trockenfrüchte",
+      "Unterwegs"
+    ],
+    "ingredients": [
+      "250 g Milchreis",
+      "600 ml Wasser",
+      "1 EL Kokosöl",
+      "125 g Frischkäse",
+      "1 EL Zucker",
+      "1/4 TL Zimt, Muskatnuss oder weitere Gewürze nach Geschmack",
+      "Salz",
+      "50–100 g Trockenfrüchte"
+    ],
+    "steps": [
+      "Den Milchreis mit dem Wasser nach Packungsanleitung gar kochen.",
+      "Den fertigen, noch warmen Milchreis mit Kokosöl, Frischkäse, Zucker, Gewürzen, Salz und den Trockenfrüchten gründlich vermengen.",
+      "Die Masse in einen Zip-Beutel füllen, zu einem flachen Paket drücken und im Kühlschrank vollständig abkühlen lassen.",
+      "Den gekühlten Reiskuchen aus dem Beutel nehmen und in kleine, handliche Portionen schneiden.",
+      "Für unterwegs die Stücke einzeln in einer Dose oder Alufolie verpacken."
+    ]
   }
 ]
