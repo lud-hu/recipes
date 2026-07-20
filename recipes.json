@@ -599,5 +599,48 @@
       "Den gekühlten Reiskuchen aus dem Beutel nehmen und in kleine, handliche Portionen schneiden.",
       "Für unterwegs die Stücke einzeln in einer Dose oder Alufolie verpacken."
     ]
+  },
+  {
+    "id": "kaesekuchen-mit-boden",
+    "title": "Käsekuchen mit Boden",
+    "description": "Cremiger Käsekuchen mit Knetteigboden, Quark, saurer Sahne und geschlagener Sahne.",
+    "cuisine": "Deutsch",
+    "diet": "vegetarisch",
+    "course": "Nachspeise",
+    "effort": "mittel",
+    "time": "1 Std. 30 Min.",
+    "servings": 12,
+    "tags": [
+      "Kuchen",
+      "Käsekuchen",
+      "Quark",
+      "Backen",
+      "Springform"
+    ],
+    "ingredients": [
+      "200 g Mehl",
+      "75 g Zucker",
+      "75 g Margarine",
+      "1 Ei",
+      "3/4 Päckchen Backpulver",
+      "Fett für die Form",
+      "125 g Margarine",
+      "150 g Zucker",
+      "1 Beutel Vanillezucker",
+      "1 Beutel Vanillepuddingpulver",
+      "3 Eier",
+      "500 g Quark",
+      "200 g saure Sahne",
+      "200 g süße Sahne"
+    ],
+    "steps": [
+      "Mehl, Zucker, Margarine, Ei und Backpulver in eine Schüssel geben, rasch zu einem Knetteig verkneten und beiseitestellen.",
+      "Für die Füllung Margarine, Zucker, Vanillezucker, Vanillepuddingpulver und Eier verrühren. Quark und saure Sahne untermischen.",
+      "Die süße Sahne steif schlagen und vorsichtig unter die Quarkmasse heben.",
+      "Den Backofen auf 180 °C Ober-/Unterhitze vorheizen. Eine 26-cm-Springform einfetten.",
+      "Den Knetteig in der Form auslegen und am Rand etwa 2 bis 3 cm hochziehen. Die Füllung hineingeben und glattstreichen.",
+      "Auf der zweiten Schiene von unten etwa 1 Stunde backen.",
+      "Den Kuchen vollständig abkühlen lassen, bevor er aus der Form genommen wird; die Quarkmasse ist direkt nach dem Backen noch weich."
+    ]
   }
 ]
