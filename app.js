@@ -3,6 +3,14 @@ const state = {
   tag: '',
 };
 
+const cookingMode = {
+  active: false,
+  wakeLock: null,
+  control: null,
+  requesting: false,
+  requestToken: 0,
+};
+
 const $ = (selector) => document.querySelector(selector);
 const recipesEl = $('#recipes');
 const template = $('#recipe-card-template');
@@ -190,6 +198,93 @@ function createServingsControl(recipe, ingredientsList) {
   return control;
 }
 
+function updateCookingModeControl(message = '') {
+  if (!cookingMode.control) return;
+  const { button, status } = cookingMode.control;
+  button.textContent = cookingMode.active ? 'Kochmodus beenden' : 'Kochmodus aktivieren';
+  button.setAttribute('aria-pressed', cookingMode.active ? 'true' : 'false');
+  cookingMode.control.container.classList.toggle('is-active', cookingMode.active);
+  status.textContent = message || (cookingMode.active
+    ? 'Der Bildschirm bleibt während des Kochens aktiv.'
+    : 'Hält den Bildschirm während des Kochens eingeschaltet.');
+}
+
+async function requestWakeLock() {
+  if (!cookingMode.active || cookingMode.wakeLock || cookingMode.requesting) return;
+  if (!('wakeLock' in navigator)) {
+    cookingMode.active = false;
+    updateCookingModeControl('Dein Browser unterstützt den Bildschirm-Wake-Lock nicht.');
+    return;
+  }
+
+  const requestToken = ++cookingMode.requestToken;
+  cookingMode.requesting = true;
+  try {
+    const wakeLock = await navigator.wakeLock.request('screen');
+    if (!cookingMode.active || requestToken !== cookingMode.requestToken) {
+      if (!wakeLock.released) await wakeLock.release();
+      return;
+    }
+
+    cookingMode.wakeLock = wakeLock;
+    wakeLock.addEventListener('release', () => {
+      if (cookingMode.wakeLock === wakeLock) cookingMode.wakeLock = null;
+      if (cookingMode.active) updateCookingModeControl('Der Bildschirm-Wake-Lock wurde unterbrochen und wird beim Zurückkehren zur App erneut aktiviert.');
+    });
+    updateCookingModeControl();
+  } catch {
+    if (cookingMode.active && requestToken === cookingMode.requestToken) {
+      cookingMode.active = false;
+      updateCookingModeControl('Der Bildschirm konnte nicht wach gehalten werden. Bitte prüfe die Browser-Berechtigungen.');
+    }
+  } finally {
+    cookingMode.requesting = false;
+    if (cookingMode.active && !cookingMode.wakeLock) requestWakeLock();
+  }
+}
+
+async function setCookingMode(active) {
+  if (active) {
+    cookingMode.active = true;
+    updateCookingModeControl('Kochmodus wird aktiviert …');
+    await requestWakeLock();
+    return;
+  }
+
+  cookingMode.active = false;
+  cookingMode.requestToken += 1;
+  const wakeLock = cookingMode.wakeLock;
+  cookingMode.wakeLock = null;
+  if (wakeLock && !wakeLock.released) await wakeLock.release();
+  updateCookingModeControl();
+}
+
+async function releaseCookingMode() {
+  if (cookingMode.active || cookingMode.wakeLock) await setCookingMode(false);
+  cookingMode.control = null;
+}
+
+function createCookingModeControl() {
+  const container = document.createElement('section');
+  container.className = 'cooking-mode-control';
+  const copy = document.createElement('div');
+  const heading = document.createElement('h3');
+  heading.textContent = 'Kochmodus';
+  const status = document.createElement('p');
+  status.className = 'cooking-mode-status';
+  status.setAttribute('role', 'status');
+  status.setAttribute('aria-live', 'polite');
+  copy.append(heading, status);
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'cooking-mode-button';
+  button.addEventListener('click', () => setCookingMode(!cookingMode.active));
+  container.append(copy, button);
+  cookingMode.control = { container, button, status };
+  updateCookingModeControl();
+  return container;
+}
+
 function render() {
   const id = currentRecipeId();
   if (id) {
@@ -280,6 +375,7 @@ function renderDetail(id) {
   meta.className = 'meta detail-meta';
   appendBadges(meta, [recipe.time, ...metaItems(recipe)].filter(Boolean));
   article.append(meta);
+  article.append(createCookingModeControl());
 
   if (recipe.source) {
     const source = document.createElement('p');
@@ -331,7 +427,14 @@ $('#reset').addEventListener('click', () => {
 filtersToggleEl.addEventListener('click', () => {
   setFiltersExpanded(filtersPanelEl.hidden);
 });
-window.addEventListener('hashchange', () => {
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && cookingMode.active && !cookingMode.wakeLock) requestWakeLock();
+});
+window.addEventListener('pagehide', () => {
+  if (cookingMode.wakeLock && !cookingMode.wakeLock.released) cookingMode.wakeLock.release();
+});
+window.addEventListener('hashchange', async () => {
+  await releaseCookingMode();
   if (!currentRecipeId()) document.title = 'Rezepte';
   render();
   window.scrollTo({ top: 0, behavior: 'smooth' });
