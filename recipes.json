@@ -642,5 +642,47 @@
       "Auf der zweiten Schiene von unten etwa 1 Stunde backen.",
       "Den Kuchen vollständig abkühlen lassen, bevor er aus der Form genommen wird; die Quarkmasse ist direkt nach dem Backen noch weich."
     ]
+  },
+  {
+    "id": "kirschkuchen-vom-blech-mit-streusel",
+    "title": "Kirschkuchen vom Blech mit Streusel",
+    "description": "Saftiger Blechkuchen mit Schattenmorellen und knusprigen Zimtstreuseln – ideal für Sommerfeste, Picknicks und die Kaffeetafel.",
+    "cuisine": "Deutsch",
+    "diet": "vegetarisch",
+    "course": "Nachspeise",
+    "effort": "mittel",
+    "time": "80 min",
+    "servings": 24,
+    "tags": [
+      "Blechkuchen",
+      "Kirschen",
+      "Streusel",
+      "Sommer",
+      "Kaffeetafel"
+    ],
+    "ingredients": [
+      "2 Gläser Schattenmorellen (je 350 g Abtropfgewicht)",
+      "etwas Butter für das Backblech",
+      "250 g weiche Butter",
+      "200 g Zucker",
+      "1 Päckchen Vanillinzucker",
+      "1 Prise Salz",
+      "5 Eier",
+      "360 g Mehl",
+      "3 TL Backpulver",
+      "200 g brauner Zucker",
+      "0,5 TL Zimt",
+      "200 g weiche Butter",
+      "350 g Mehl",
+      "etwas Puderzucker zum Bestreuen"
+    ],
+    "steps": [
+      "Schattenmorellen in einem Sieb gut abtropfen lassen. Ein Backblech (ca. 38 × 45 cm) einfetten und den Backofen auf 180 °C Ober-/Unterhitze (160 °C Umluft) vorheizen.",
+      "Für den Rührteig 250 g weiche Butter mit Zucker, Vanillinzucker und Salz schaumig schlagen. Die Eier einzeln unterrühren.",
+      "360 g Mehl mit Backpulver mischen, nach und nach unterrühren und den Teig gleichmäßig auf dem Blech verstreichen. Die Kirschen darauf verteilen.",
+      "Für die Streusel braunen Zucker, Zimt und 200 g weiche Butter verkneten. 350 g Mehl zuletzt zugeben und alles zu groben Streuseln verarbeiten.",
+      "Die Streusel über den Kirschen verteilen und den Kuchen 35 bis 40 Minuten backen. Vollständig auskühlen lassen und nach Wunsch mit Puderzucker bestreuen."
+    ],
+    "source": "https://www.einfachbacken.de/rezepte/kirschkuchen-vom-blech-mit-streusel"
   }
 ]
