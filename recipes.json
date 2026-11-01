@@ -684,5 +684,59 @@
       "Die Streusel über den Kirschen verteilen und den Kuchen 35 bis 40 Minuten backen. Vollständig auskühlen lassen und nach Wunsch mit Puderzucker bestreuen."
     ],
     "source": "https://www.einfachbacken.de/rezepte/kirschkuchen-vom-blech-mit-streusel"
+  },
+  {
+    "id": "slow-cooked-bolognese-serious-eats",
+    "title": "Langsam geschmorte Bolognese",
+    "description": "Kräftiges, lange im Ofen geschmortes Ragù nach Serious Eats – ohne Leber und mit Rind statt Lamm.",
+    "cuisine": "Italienisch",
+    "diet": "Fleisch",
+    "course": "Hauptspeise",
+    "effort": "aufwendig",
+    "time": "5 Std. 5 Min.",
+    "servings": 10,
+    "tags": [
+      "Bolognese",
+      "Pasta",
+      "Rind",
+      "Schmorgericht",
+      "Serious Eats"
+    ],
+    "source": "https://www.seriouseats.com/the-best-slow-cooked-bolognese-sauce-recipe",
+    "ingredients": [
+      "1 l natriumarme Hühnerbrühe",
+      "30–45 g Gelatinepulver (4–6 Päckchen)",
+      "1 Dose (800 g) ganze geschälte Tomaten, möglichst San Marzano",
+      "900 g Rinderhack aus der Schulter (etwa 20 % Fett; ersetzt Rind und Lamm)",
+      "450 g Schweineschulter, gemahlen (etwa 20 % Fett)",
+      "60 ml natives Olivenöl extra",
+      "60 g ungesalzene Butter",
+      "225 g Pancetta, fein gewürfelt",
+      "1 große Zwiebel (ca. 225 g), fein gehackt",
+      "2 Karotten (ca. 225 g), fein gehackt",
+      "4 Stangen Sellerie (ca. 225 g), fein gehackt",
+      "4 mittelgroße Knoblauchzehen, gehackt",
+      "25 g frische Salbeiblätter, gehackt",
+      "50 g frische Petersilie, gehackt und geteilt",
+      "475 ml trockener Weiß- oder Rotwein",
+      "235 ml Vollmilch",
+      "2 Lorbeerblätter",
+      "235 ml Schlagsahne",
+      "85 g Parmesan, fein gerieben, plus mehr zum Servieren",
+      "30 ml vietnamesische oder thailändische Fischsauce",
+      "Salz und frisch gemahlener schwarzer Pfeffer",
+      "900 g getrocknete oder frische Pasta, z. B. Pappardelle, Tagliatelle oder Penne"
+    ],
+    "steps": [
+      "Den Backofen auf 150 °C vorheizen und den Rost in das untere mittlere Drittel schieben. Die Gelatine über die Brühe streuen und quellen lassen. Die Tomaten glatt pürieren.",
+      "Olivenöl in einem großen Schmortopf stark erhitzen. Rinder- und Schweinehack mit Salz und Pfeffer würzen und unter Rühren etwa 10 Minuten braten, dabei das Fleisch zerkleinern, bis es nicht mehr rosa ist.",
+      "Inzwischen Butter und Pancetta in einer großen Pfanne bei mittelhoher Hitze etwa 8 Minuten braten, bis das Fett weitgehend ausgelassen ist, Pancetta und Butter aber noch nicht bräunen. Zwiebel, Karotten, Sellerie, Knoblauch, Salbei und die Hälfte der Petersilie zugeben und unter Rühren etwa 8 Minuten weich dünsten, ohne zu bräunen.",
+      "Das Gemüse zum Fleisch geben. Den Schmortopf wieder auf hohe Hitze stellen und unter Rühren etwa 10 Minuten weitergaren, bis der größte Teil der Flüssigkeit verdampft ist.",
+      "Wein zugeben und unter Rühren größtenteils einkochen lassen. Brühe, pürierte Tomaten, Milch und Lorbeerblätter einrühren. Vorsichtig mit Salz und Pfeffer würzen und die Sauce zum Köcheln bringen.",
+      "Den Topf ohne Deckel in den Ofen stellen. 3 bis 4 Stunden schmoren, gelegentlich umrühren und den Rand des Topfes abschaben, bis die Flüssigkeit fast vollständig reduziert und die Sauce dick ist. Ist sie nach 4 Stunden noch zu flüssig, auf dem Herd bei kräftigem Köcheln unter häufigem Rühren fertig einkochen.",
+      "Das meiste Fett vorsichtig abschöpfen und insgesamt etwa 240 ml zurücklassen. Alternativ die Sauce abkühlen und über Nacht kalt stellen, das fest gewordene Fett entfernen und beim Erwärmen etwa 240 ml davon wieder zugeben.",
+      "Sahne, Parmesan, Fischsauce und die restliche Petersilie einrühren. Auf dem Herd unter ständigem Rühren aufkochen, bis die Sauce emulgiert. Mit Salz und Pfeffer abschmecken. Die Sauce hält sich gekühlt bis zu einer Woche und kann eingefroren werden.",
+      "Zum Servieren die benötigte Sauce in einem großen Topf erhitzen. Pasta in reichlich Salzwasser knapp al dente kochen und dabei etwa 120 ml Kochwasser auffangen. Pasta abgießen, mit ausreichend Sauce und etwas Kochwasser zurück in den Topf geben und bei hoher Hitze etwa 30 Sekunden schwenken, bis die Sauce die Pasta dicklich überzieht. Sofort mit Parmesan servieren."
+    ]
   }
 ]
