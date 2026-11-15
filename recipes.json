@@ -742,7 +742,7 @@
   {
     "id": "madeleines",
     "title": "Madeleines",
-    "description": "Eine Portion ergibt 12 französische Madeleines mit Honig und feinem Rosenaroma.",
+    "description": "Eine Portion ergibt 12 französische Madeleines (ca. 175 g Teig) mit Honig und feinem Rosenaroma.",
     "cuisine": "Französisch",
     "diet": "vegetarisch",
     "course": "Nachspeise",
@@ -758,15 +758,15 @@
     ],
     "source": "https://www.franzoesischkochen.de/madeleines/",
     "ingredients": [
-      "75 g geschmolzene Butter",
-      "1,8 Eier",
-      "78 g Zucker",
-      "knapp 2 TL Honig",
-      "60 g Mehl",
-      "30 g gemahlene Mandeln",
-      "0,6 TL Backpulver (ca. 2,4 g)",
+      "38 g geschmolzene Butter",
+      "0,9 Ei (ohne Schale abgewogen)",
+      "39 g Zucker",
+      "knapp 1 TL Honig",
+      "30 g Mehl",
+      "15 g gemahlene Mandeln",
+      "0,3 TL Backpulver (ca. 1,2 g)",
       "1 Prise Salz",
-      "nach Geschmack: 2 Tropfen Rosenaroma oder 1 EL Orangenblütenwasser"
+      "nach Geschmack: 1 Tropfen Rosenaroma oder 1/2 EL Orangenblütenwasser"
     ],
     "steps": [
       "Eier, Zucker und Honig mit einem Schneebesen schlagen, bis die Masse hellgelb wird.",
