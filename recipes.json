@@ -738,5 +738,42 @@
       "Sahne, Parmesan, Fischsauce und die restliche Petersilie einrühren. Auf dem Herd unter ständigem Rühren aufkochen, bis die Sauce emulgiert. Mit Salz und Pfeffer abschmecken. Die Sauce hält sich gekühlt bis zu einer Woche und kann eingefroren werden.",
       "Zum Servieren die benötigte Sauce in einem großen Topf erhitzen. Pasta in reichlich Salzwasser knapp al dente kochen und dabei etwa 120 ml Kochwasser auffangen. Pasta abgießen, mit ausreichend Sauce und etwas Kochwasser zurück in den Topf geben und bei hoher Hitze etwa 30 Sekunden schwenken, bis die Sauce die Pasta dicklich überzieht. Sofort mit Parmesan servieren."
     ]
+  },
+  {
+    "id": "madeleines",
+    "title": "Madeleines",
+    "description": "Französisches Mandelgebäck mit Honig und feinem Rosenaroma, angepasst auf 12 Stück.",
+    "cuisine": "Französisch",
+    "diet": "vegetarisch",
+    "course": "Nachspeise",
+    "effort": "einfach",
+    "time": "30 min plus 15 min Kühlzeit",
+    "servings": 12,
+    "tags": [
+      "Madeleines",
+      "Gebäck",
+      "Mandel",
+      "Frankreich",
+      "Backen"
+    ],
+    "source": "https://www.franzoesischkochen.de/madeleines/",
+    "ingredients": [
+      "75 g geschmolzene Butter",
+      "2 Eier",
+      "78 g Zucker",
+      "knapp 2 TL Honig",
+      "60 g Mehl",
+      "30 g gemahlene Mandeln",
+      "knapp 1/2 TL Backpulver",
+      "1 Prise Salz",
+      "nach Geschmack: 2 Tropfen Rosenaroma oder 1 EL Orangenblütenwasser"
+    ],
+    "steps": [
+      "Eier, Zucker und Honig mit einem Schneebesen schlagen, bis die Masse hellgelb wird.",
+      "Mehl, gemahlene Mandeln, Salz, Backpulver und geschmolzene Butter zugeben und kräftig verrühren. Nach Geschmack Rosenaroma oder Orangenblütenwasser einrühren.",
+      "Den Teig mindestens 15 Minuten im Kühlschrank ruhen lassen, bis er fester ist.",
+      "Den Backofen auf 180 °C Umluft vorheizen. Den Teig nochmals kurz rühren und die Mulden der Madeleineform höchstens zu zwei Dritteln füllen.",
+      "12 bis 15 Minuten backen: etwa 15 Minuten in einer Metallform oder 12 Minuten in einer Silikonform."
+    ]
   }
 ]
